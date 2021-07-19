@@ -6,6 +6,6 @@ const reduce = (arr, reducer, defaultValue=undefined) => {
     } else {
         return reducedValue;
     }
-};
+}
 
 module.exports = reduce;

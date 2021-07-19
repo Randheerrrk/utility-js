@@ -13,4 +13,4 @@ describe('Reduce', () => {
     it('reduce([\'a\', \'b\', \'c\'],(x,y)=>x+y, \'z\') should be zabc', () => {
         expect(reduce(['a', 'b', 'c'], (x, y) => x+y, 'z')).toEqual('zabc');
     });
-})
+});
